@@ -2,9 +2,9 @@
     "name": "sizzle",
     "description": "A sizzlin' hot selector engine",
     "keywords": ["sizzle", "selector", "dom"],
-    "author": "John Resig",
-    "contributors": [
-        "George Moschovitis"
+    "author": "John Resig (http://ejohn.org)",
+    "maintainer": [
+        "George Moschovitis (http://gmosx.com)"
     ],    
     "dependencies": [],
     "lib": ["lib"],
