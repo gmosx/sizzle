@@ -7,8 +7,9 @@ Sizzle
 Usage
 -----
 
-    var SIZZLE = require("sizzle"),
-        $ = SIZZLE.init(document);
+    var html = '<html>...</html>',
+        document = require("htmlparser").parse(html),
+        $ = require("sizzle").sizzle(document);
 
     $(".test").forEach(function(el) {
         print(el.innerHTML);
